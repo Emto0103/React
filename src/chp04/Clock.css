@@ -1,0 +1,12 @@
+.Clock{
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    background-color: aqua;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+}
