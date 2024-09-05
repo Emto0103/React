@@ -1,3 +1,15 @@
 p {
     color: rebeccapurple;
 }
+.btn1 {
+    margin: 10px;
+    color: #61dafb;
+}
+.btn2 {
+    margin: 10px;
+    color: red;
+}
+.btn3 {
+    margin: 10px;
+    color: black;
+}
