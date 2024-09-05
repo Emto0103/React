@@ -1,0 +1,21 @@
+button {
+    border-width: 3px;
+    border-style: solid;
+    border-color: yellow;
+    margin: 10px;
+    color: #61dafb;
+}
+button1 {
+    border-width: 3px;
+    border-style: solid;
+    border-color: blue;
+    margin: 10px;
+    color: red;
+}
+button2 {
+    border-width: 3px;
+    border-style: solid;
+    border-color: bisque;
+    margin: 10px;
+    color: black;
+}
