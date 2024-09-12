@@ -1,6 +1,5 @@
 import React from "react";
 import Comment from "./Comment";
-import comment from "./Comment";
 
 const comments = [
     {
@@ -18,16 +17,11 @@ const comments = [
 ];
 function CommentList(props){
     return(
-        // <div>
-        //     <Comment name={"윤준석"} comment={"컴포넌트 합성 실습 중"}/>
-        //     <Comment name={"김민지"} comment={"컴포넌트 합성 실습 중"}/>
-        //     <Comment name={"윤준석"} comment={"컴포넌트 합성 실습 중"}/>
-        // </div>
         <div>
-            {comments.map((comment) =>{
+            {comments.map((comment) => {
                 return (
                     <Comment name={comment.name} comment={comment.comment}/>
-                );
+                 );
             })}
         </div>
     );
