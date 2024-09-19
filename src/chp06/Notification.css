@@ -1,0 +1,6 @@
+.wrapper{
+    margin: 8px;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+}
