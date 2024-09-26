@@ -27,5 +27,5 @@ function Accommodate(props){
         </div>
     );
 }
-
+//
 export default Accommodate;
