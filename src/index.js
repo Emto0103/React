@@ -1,21 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import './chp04/Button.css'
-import './chp04/ConfirmDialog.css'
-import './chp04/Clock.css'
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Library from "./chp03/Library";
-import ConfirmDialog from "./chp04/ConfirmDialog";
-import Clock from "./chp04/Clock";
-import CommentList from "./chp05/CommentList";
-import Accommodate from "./chp07/Accommodate";
+import InputTest from "./chp08/InputTest";
+import ConfirmButton from "./chp08/ConfirmButton";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <Accommodate/>
+        <ConfirmButton2/>
     </React.StrictMode>
 );
 //
