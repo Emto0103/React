@@ -5,13 +5,16 @@ import reportWebVitals from './reportWebVitals';
 import InputTest from "./chp08/InputTest";
 import ConfirmButton from "./chp08/ConfirmButton";
 import ClickButton from "./chp08/ClickButton";
-import Greeting from "./chp09/Greeting";
+import Greeting from "./test/Greeting";
 import LoginControl from "./chp09/LoginControl";
+import MailBox from "./chp09/MailBox";
+import LoginControl2 from "./chp09/LoginControl2";
+import LandingPage from "./chp09/LandingPage";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <LoginControl/>
+        <LandingPage/>
     </React.StrictMode>
 );
 //
