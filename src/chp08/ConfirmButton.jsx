@@ -13,7 +13,7 @@ class ConfirmButton extends React.Component{
     handleConfirm(){
         this.setState((prevState) => ({
             isConfirmed: !prevState.isConfirmed
-        }));
+        }))
     }
 
     render() {

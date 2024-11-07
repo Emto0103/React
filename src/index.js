@@ -4,11 +4,14 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import InputTest from "./chp08/InputTest";
 import ConfirmButton from "./chp08/ConfirmButton";
+import ClickButton from "./chp08/ClickButton";
+import Greeting from "./chp09/Greeting";
+import LoginControl from "./chp09/LoginControl";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <ConfirmButton2/>
+        <LoginControl/>
     </React.StrictMode>
 );
 //
