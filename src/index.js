@@ -2,19 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import InputTest from "./chp08/InputTest";
-import ConfirmButton from "./chp08/ConfirmButton";
-import ClickButton from "./chp08/ClickButton";
-import Greeting from "./test/Greeting";
-import LoginControl from "./chp09/LoginControl";
-import MailBox from "./chp09/MailBox";
-import LoginControl2 from "./chp09/LoginControl2";
-import LandingPage from "./chp09/LandingPage";
+import RequestForm from "./chp11/RequestForm";
+import NameRequestForm from "./chp11/NameRequestForm";
+import SignUp from "./chp11/SignUp";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <LandingPage/>
+        <SignUp/>
     </React.StrictMode>
 );
 //
