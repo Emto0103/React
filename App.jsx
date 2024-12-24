@@ -1,5 +1,3 @@
-// 모두투어 메인 페이지 - React 예제 (하위 컴포넌트 활용)
-
 import React from 'react';
 import './App.css';
 
